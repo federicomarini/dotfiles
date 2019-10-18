@@ -1,0 +1,18 @@
+[user]
+        name = Federico Marini
+        email = marinif@uni-mainz.de
+[core]
+        excludesfile = ~/.gitignore
+[credential]
+        helper = osxkeychain
+[alias]
+        co = checkout
+      	br = branch
+      	ci = commit
+      	st = status
+      	unstage = reset HEAD --
+      	last = log -1 HEAD
+        lol = log --graph --decorate --pretty=oneline --abbrev-commit
+        lola = log --graph --decorate --pretty=oneline --abbrev-commit --all
+[github]
+	user = federicomarini
